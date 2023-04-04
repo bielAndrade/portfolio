@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(54, 54, 54);
+}
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar nav{
+    background-color: rgb(50, 52, 53);
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    height: 73px;
+}
+
+nav h2{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: #28e98c;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient();
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul a li{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+nav ul li{
+    list-style: none;
+    margin: 10px 20px;
+    padding-bottom: 3px;
+    font-size: 1.2em;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    border-bottom: #28e98c solid 1px;
+    transition: 0.2s;
+}
+
+nav h4{
+    font-size: 1.6em;
+    border: rgba(255, 255, 255, 0.9) solid 1px;
+    color: #28e98c;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav h4:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: #28e98c;
+    border: #28e98c solid 1px;
+    color: black;
+}
+
+.presentation{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1650px;
+    margin: 270px auto 190px auto;
+}
+
+.presentation h1{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 4em;
+}
+
+#myName{
+    color: #28e98c;
+    font-size: 1.5em;
+    display: block;
+}
+
+.presentation p{
+    line-height: 40px;
+    font-size: 1.3em;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+}
+
+.socialMedia li{
+    margin-top: 20px;
+    list-style: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.socialMedia li:hover{
+    box-shadow: rgba(179, 178, 178, 0.35) 0px 5px 15px;
+}
+
+#insta::before{
+    content: '';
+    display: inline-block;
+    background-image: url(./img/instagramGreen.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#linkedIn::before{
+    content: '';
+    display: inline-block;
+    background-image: url(./img/linkedinGreen.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#gitHub::before{
+    content: '';
+    display: inline-block;
+    background-image: url(./img/githubGreen.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#cv{
+    color: rgba(255, 255, 255, 0.9);
+    display: block;
+    margin-top: 35px;
+    padding: 10px;
+    width: 200px;
+    background-color: #28e98c;
+    font-size: 22px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: rgba(131, 131, 131, 0.35) 0px 5px 15px;
+}
+
+#cv:hover{
+    box-shadow: none;
+    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
+}
+
+.personalPicture{
+    background-image: linear-gradient(rgba(0,0,0,0),
+    rgba(0,0,0,0)), url(./img/fotoRosto.jpeg);
+    background-size: cover;
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    box-shadow: rgba(59, 59, 59, 0.35) 0px 5px 15px;
+}
+
+.personalPicture:hover{
+    box-shadow: rgba(74, 74, 74, 0.35) 0px 5px 15px;
+    transition: 0.2s;
+}
+
+.aboutContainer{
+    background-color: rgb(102, 95, 95);
+    padding-bottom: 180px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1450px;
+    margin: auto;
+    padding: 30px;
+}
+
+.aboutFigure{
+    margin-top: 80px;
+}
+
+#programmingPic{
+    box-shadow: #28e98c9c -5px 5px, #28e98c59 -10px 10px, rgba(41, 41, 41, 0.2) -15px 15px, rgba(39, 38, 39, 0.1) -20px 20px, rgba(51, 51, 51, 0.05) -25px 25px;
+    width: 600px;
+}
+
+.aboutMe{
+    margin-top: 80px;
+}
+
+.aboutMe h2{
+    font-size: 2.5em;
+}
+
+#aboutMe{
+    color: #28e98c;
+}
+
+.aboutMe h3{
+    margin-top: 15px;
+    font-size: 1.8em;
+}
+
+.aboutMe p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+.skillsContainer{
+    background-color: rgb(102, 95, 95);
+    padding-bottom: 120px;
+}
+
+#mySkills{
+    color: #28e98c;
+}
+
+.skills{
+    max-width: 1700px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgba(29, 28, 28, 0.705);
+}
+
+.skills h2{
+    padding-top: 30px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.skills p{
+    margin-top: 15px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.skillsSet{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 30px 80px 30px;
+}
+
+.skillHtml, .skillJs, .skillC{
+    border: rgba(29, 28, 28, 0.705) solid 2px;
+    border-radius: 30px;
+    height: 400px;
+    width: 300px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: rgba(201, 194, 194, 0.39);
+    text-align: center;
+}
+
+.skillHtml:hover, .skillJs:hover, .skillC:hover{
+    border: #28e98c solid 2px;
+    transition: 0.3s;
+}
+
+
+.skillHtml h3, .skillJs h3, .skillC h3{
+    margin-top: 15px;
+    font-size: 1.7em;
+}
+
+.skillHtml p, .skillJs p, .skillC p{
+    margin-top: 14px;
+    font-size: 1.4em;
+}
+
+
+.projectsContainer{
+    background-color: rgb(102, 95, 95);
+}
+
+.projects{
+    text-align: center;
+}
+
+.projects h2{
+    color: #28e98c;
+    padding-top: 30px;
+    font-size: 2.5em;
+}
+
+.projects p{
+    margin-top: 15px;
+    font-size: 1.3em;
+}
+
+.projectsBoard{
+    display: grid;
+    grid-template: auto auto  / auto auto auto;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-around;
+    max-width: 1300px;
+    margin: auto;
+    padding: 50px 30px;
+}
+
+.projectsBoard div{
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: rgba(41, 41, 41, 0.397);
+    padding: 30px;
+    margin: 30px;
+    border: rgb(102, 95, 95) solid 2px;
+    font-size: 1.2em;
+}
+
+.projectsBoard div:hover{
+    border: #28e98c solid 2px;
+    color: #28e98c;
+    font-size: 1.4em;
+    transition: 0.3s;
+}
+
+.projectsBoard .gymProject{
+    background-image: linear-gradient(rgba(0,0,0,0.4),
+    rgba(0,0,0,0.7)), url(./img/gymProject.jpg);
+    background-size: cover;
+}
+
+.projectsBoard .mathJsProject{
+    background-image: linear-gradient(rgba(0,0,0,0.4),
+    rgba(0,0,0,0.7)), url(./img/mathJs.jpg);
+    background-size: cover;
+}
+
+.projectsBoard .laundryProject{
+    background-image: linear-gradient(rgba(0,0,0,0.4),
+    rgba(0,0,0,0.7)), url(./img/laundryProject.jpg);
+    background-size: cover;
+}
+
+.projectsBoard .hashProject{
+    background-image: linear-gradient(rgba(0,0,0,0.4),
+    rgba(0,0,0,0.7)), url(./img/hashProject.jpg);
+    background-size: cover;
+}
+
+.projectsBoard .soonProject{
+    background-image: linear-gradient(rgba(0,0,0,0.4),
+    rgba(0,0,0,0.7)), url(./img/soonProject.jpg);
+    background-size: cover;
+}
+
+.projectsBoard .mathCProject{
+    background-image: linear-gradient(rgba(0,0,0,0.4),
+    rgba(0,0,0,0.7)), url(./img/mathC.jpg);
+    background-size: cover;
+}
+
+.footer{
+    max-width: 700px;
+    margin: auto;
+}
+
+.footer h2{
+    padding-top: 30px;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contactMe{
+    color: #28e98c;
+}
+
+.form{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form #name, #mail, #text{
+    color: rgba(255, 255, 255, 0.9);
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: none;
+    background-color: #0000008a;
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+#text{
+    padding-top: 20px;
+    height: 200px;
+    resize: none;
+}
+
+.form #submit{
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    width: 200px;
+    padding: 10px;
+    margin: 35px auto 30px auto;
+    background-color: #28e98c;
+    font-size: 22px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: rgba(131, 131, 131, 0.35) 0px 5px 15px;
+}
+
+#submit:hover{
+    box-shadow: none;
+    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
+}
+
+.rights{
+    height: 50px;
+    background-color: #1d1e20;
+}
+
+.rights h4{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footerBy{
+    color: #28e98c;
+}

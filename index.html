@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500&display=swap" rel="stylesheet">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    
+    <section class="navbar">
+        <nav>
+            <h2>Portfólio</h2>
+            <ul>
+                <a href="#home"><li>Home</li></a>
+                <a href="#about"><li>Sobre</li></a>
+                <a href="#skills"><li>Habilidades</li></a>
+                <a href="#projects"><li>Projetos</li></a>
+            </ul>
+            <a href="#contact"><h4>Contato</h4></a>
+        </nav>
+    </section>
+
+    <section class="presentation" id="home">
+        <div class="personalPresentatio">
+            <h1>Olá, Me chamo <span id="myName"></span></h1>
+            <p>Seja Bem-vindo, sou um desenvolvedor web em busca de uma primeira oportunidade.</p>
+            <p>Fique à vontade para dar uma olhada em um pouco do que já fiz!</p>
+            <ul class="socialMedia">
+                <a href="">
+                    <li id="insta"></li>
+                </a>
+                <a href="">
+                    <li id="linkedIn"></li>
+                </a>
+                <a href="">
+                    <li id="gitHub"></li>
+                </a>
+            </ul>
+            <span id="cv">Download CV</span>
+        </div>
+
+        <div class="personalPicture">
+            
+        </div>
+    </section>
+
+    <section class="aboutContainer" id="about">
+        <div class="about">
+            <div class="aboutFigure">
+                <figure>
+                    <img id="programmingPic" src="./img/programming.jpg" alt="Imagem programando">
+                </figure>
+            </div>
+            <div class="aboutMe">
+                <h2>Um Pouco <span id="aboutMe">Sobre Mim</span></h2>
+                <h3>Desenvolvedor Frontend</h3>
+                <p>Seja bem vindo, me chamo Gabriel, atualmente tenho 19 anos e estou cursando Análise e Desenvolvimento de Sistemas, sou residente de Osasco-SP.</p> 
+                <p>Meus hobbies se resumem em programar coisas aleatórias, jogar video game, xadrez e tocar violão. No momento estou a procura de uma primeira vaga na área de tecnologia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skillsContainer" id="skills">
+        <div class="skills">
+            <h2>Minhas <span id="mySkills">Habilidades</span></h2>
+            <p>Abaixo, uma representação das tecnologias que mais utilizo e tenho conhecimento</p>
+            <div class="skillsSet">
+                <div class="skillHtml">
+                    <img src="./img/htmlIcon.png" alt="HTML Logo"> 
+                    <img src="./img/cssIcon.png" alt="CSS Logo">
+                    <h3>HTML e CSS</h3>
+                    <p>Diversos projetos desenvolvidos utilizando HTML e CSS, com eles fui capaz de criar meus primeiros sites.</p>
+                </div>
+                <div class="skillJs">
+                    <img src="./img/jsIcon.png" alt="JS Logo">
+                    <h3>Java Script</h3>
+                    <p>Linguagem em que estou focando atualmente, já tenho alguns projetos criados com ela, algun mais simples, outros mais complexos.</p>
+                </div>
+                <div class="skillC">
+                    <img src="./img/cIcon.png" alt="C Logo">
+                    <h3>C</h3>
+                    <p>A primeira linguagem de programação que tive contato de fato. Criei alguns projetos simples com ela, tanto em casa como na faculdade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projectsContainer" id="projects">
+        <div class="projects">
+            <h2>Projetos</h2>
+            <p>Confira alguns dos meus últimos projetos utilizando as tecnologias citadas acima</p>
+            <div class="projectsBoard">
+                <div class="gymProject">Academia</div>
+                <div class="mathJsProject">Operações Matemáticas(JS)</div>
+                <div class="laundryProject">Lavanderia</div>
+                <div class="hashProject">Jogo da Velha</div>
+                <div class="soonProject">Em breve...</div>
+                <div class="mathCProject">Operações Matemáticas(C)</div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer">
+            <h2>Entre em <span id="contactMe">Contato!</span></h2>
+            <form method="get" action="https://www.youtube.com/watch" class="form">
+                <input type="text" name="name" id="name" placeholder="Nome">
+                <input type="email" name="emial" id="mail" placeholder="Email">
+                <textarea name="text" id="text" cols="30" rows="10" placeholder="Mande uma mensagem!"></textarea>
+                <input type="submit" value="Enviar" id="submit">
+            </form>
+        </div>
+        <div class="rights">
+            <h4>&copy;project by <span class="footerBy">Gabriel Andrade</span></h4>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
